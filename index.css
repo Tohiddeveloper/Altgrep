@@ -10,7 +10,6 @@ html{
 .main{
     height: 800px;
 }
-
 .show{
     position: absolute;
     right: 0;
@@ -43,8 +42,6 @@ header{
     display: flex;
     list-style: none;
     display: inline-block;
-   
-
 }
 .col1{
     background-color: rgb(104,215,58)
@@ -78,10 +75,9 @@ header{
     left: 0;
     border: 1px solid transparent;
     transition:0.3s all ease-in-out;
-
 }
- .li li a:hover::before,
- .li li a:hover::after{
+.li li a:hover::before,
+.li li a:hover::after{
     left:0;
     top:0;
     width:100%;
