@@ -23,18 +23,7 @@ header{
     justify-content: space-between;
    
 }
-@media(min-aspect-ratio:16/9){
-    .backvid{
-        width:100%;
-        height:auto;
-    }
-}
-@media(max-aspect-ratio:16/9){
-    .backvid{
-        width:auto;
-        height:100%;
-    }
-}
+
 .logo{
     height: 80px;
     margin-left: 10px;
